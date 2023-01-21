@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.container{
+    display: grid;
+    width:90%;
+    grid-template-rows: 1fr auto;
+    grid-template-columns:repeat(4,1fr);
+    padding:30px;
+    grid-gap:1rem;
+    
+}
+.item{
+
+   padding: 100px;
+   margin:2px;
+}
+#Container1{
+    font-weight:900;
+    font-size: 20px;
+    font-family:'inter';
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding:10px;
+    border:none;   
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end:4;
+
+    background-image: url(https://wallpapers.com/images/hd/cute-puppy-dog-with-yellow-roses-javefvy2va0kk1ll.jpg);
+    background-size: cover;
+    
+
+
+}
+#item2{
+    background-image: url(https://wallpapercave.com/wp/wp7763767.jpg);
+    background-size: cover;
+
+}
+#item3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Eqw3uVtEgI1UZL-SPjPQuzeLFE4Xksvpgg&usqp=CAU);
+    background-size: cover;
+
+}
+#item4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpV0cTJssrwUQYgBb146OTpuxFgEY0cIk8aQ&usqp=CAU);
+    background-size: cover;
+
+
+}
+#item5{
+    background-image: url(https://images.unsplash.com/photo-1543466835-00a7907e9de1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwxNnx8c21pbGluZyUyMGRvZ3xlbnwwfHx8fDE2NTk4ODYwMzE&ixlib=rb-1.2.1&q=80&w=1080);
+    background-size: cover;
+
+}
+#item6{
+    grid-column-start: 1;
+    grid-column-end:3;
+    background-image: url(https://www.shutterstock.com/image-photo/banner-three-happy-puppy-dogs-260nw-1920382709.jpg);
+    background-size: cover;
+
+}
+#item7{
+    grid-column-start: 3;
+    grid-column-end:-1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeIRtQI8WSigHrrCc9m7_z9oYKknAiTiD1Q&usqp=CAU);
+    background-size: cover;
+    position: relative;  
+    z-index: -65;
+
+}
+#footerSection{
+    padding:5px;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    position: relative;
+    top:-135%;
+    z-index:-50;
+}
